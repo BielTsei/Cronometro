@@ -1,0 +1,96 @@
+* {
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #082546;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+#container {
+  background-color: white;
+  width: 40%;
+  height: 36vh;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.timer {
+  display: flex;
+  font-size: 48px;
+  justify-content: center;
+  margin-bottom: 16px;
+  font-weight: 600;
+  align-items: flex-end;
+}
+
+.time {
+  min-width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#milleseconds {
+  font-size: 26px;
+}
+
+.separator {
+  font-size: 48px;
+}
+
+button {
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  width: 90px;
+  height: 36px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2 ease-in-out;
+}
+
+button:hover {
+  scale: 1.09;
+}
+
+h1 {
+  text-align: center;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#btn_Start {
+  background-color: #58bc5d;
+}
+
+#btn_Pause {
+  background-color: #777777;
+  display: none;
+}
+
+#btn_Stop {
+  background-color: rgb(1, 16, 156);
+  display: none;
+}
+
+#btn_Reset {
+  background-color: #ba3535;
+}
