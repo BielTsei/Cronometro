@@ -15,8 +15,8 @@ body {
 
 #container {
   background-color: white;
-  width: 40%;
-  height: 36vh;
+  width: 30%;
+  height: 34vh;
   border-radius: 18px;
   display: flex;
   justify-content: center;
@@ -34,7 +34,6 @@ body {
 }
 
 .time {
-  min-width: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -93,4 +92,28 @@ h1 {
 
 #btn_Reset {
   background-color: #ba3535;
+}
+
+@media (min-width: 320px) and (max-width: 426px) {
+  #container {
+    width: 290px;
+  }
+  .timer {
+    font-size: 36px;
+  }
+
+  .separator {
+    font-size: 34px;
+  }
+
+  button {
+    font-size: 13px;
+    width: 96px;
+  }
+}
+
+@media (min-width: 427px) and (max-width: 768px) {
+  #container {
+    width: 340px;
+  }
 }
